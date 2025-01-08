@@ -54,7 +54,7 @@ function Projects() {
       {projects.map((project, index) => (
         <Grid item xs={12} sm={6} md={3} key={index}>
           <Card sx={{
-            maxWidth:'350px',
+            maxWidth:'260px',
             padding: '1em',
             width: '100%', // Ensure it's responsive
             border: '1px solid orangered',
