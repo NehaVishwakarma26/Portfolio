@@ -44,7 +44,7 @@ function openResume(){
     }
 
 return(
-   <Grid>
+   <Grid margin={-1}>
     <Header handleScroll={handleScroll}/>
     <Box sx={{ flexGrow: 1,display:'flex',backgroundColor:'#1B1A17',color:'white',minHeight:'100vh',position:'relative' }}>
         {/* <Background/> */}
@@ -67,11 +67,11 @@ return(
        
       </Grid>
 
-<Grid sx={{width:'60%',padding:'2em',marginTop:'10em'}}>
-    <Typography sx={{fontSize:'1.5rem',fontFamily:'Mona Sans,sans-serif'}}>
+<Grid sx={{width:'80%',padding:'2em',marginTop:'10em'}}>
+    <Typography sx={{fontSize: { xs: "1em", sm: "1.5em" },fontFamily:'Mona Sans,sans-serif'}}>
         Hello
     </Typography>
-    <Typography sx={{ fontSize: '3rem' ,fontFamily:'Mona Sans,sans-serif'}}>
+    <Typography sx={{  fontSize: { xs: "2em", sm: "3em" },fontFamily:'Mona Sans,sans-serif'}}>
     I'm <span style={{ fontWeight: 'bold' }}>Neha Vishwakarma</span>
 </Typography>
 

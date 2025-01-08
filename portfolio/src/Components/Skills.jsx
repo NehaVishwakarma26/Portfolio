@@ -44,7 +44,7 @@ function Skills() {
             padding: '16px',
             width: '100%',
             maxHeight:'50px',
-            maxWidth: '120px', /* Reduced maxWidth to make boxes smaller */
+            maxWidth: {xs:'80px',sx:"250px",md:"120px"}, /* Reduced maxWidth to make boxes smaller */
             margin: 'auto', /* Centers the boxes */
             marginTop: '1em'
           }}>
