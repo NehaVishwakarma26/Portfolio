@@ -17,7 +17,7 @@ function AboutMe() {
     <Typography variant="h4" gutterBottom sx={{ color: 'white', fontSize: '2em', padding: '1em' }}>
 About Me    </Typography>
     <Grid container spacing={2} marginLeft={2} paddingBottom={10}>
-        <Grid item xs={6} sm={4} md={10} sx={{color:'white',fontFamily:'Mona Sans,sans-serif'}} >
+        <Grid item xs={8} sm={4} md={10} sx={{color:'white',fontFamily:'Mona Sans,sans-serif'}} >
         I'm a third-year Computer Engineering student living in Mumbai, a creative web developer passionate about crafting functional, user-friendly applications. With expertise in the MERN stack, I love bringing innovative projects to life. Let's build something impactful together!
 
 </Grid>
