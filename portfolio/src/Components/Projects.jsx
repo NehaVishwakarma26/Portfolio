@@ -6,7 +6,17 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid2'
+import bucksbuddy from "../assets/images/bucksbuddy.png"
+import chattrhive from "../assets/images/chattrhive.png"
+import formee from "../assets/images/formee.png"
+import trackr from "../assets/images/trackr.png"
 import Box from '@mui/material/Box';
+// import bucksbuddy from "../assets/images/bucksbuddy"
+// import chattrhive from "../assets/images/chattrhive"
+// import formee from "../assets/images/formee"
+// import trackr from "../assets/images/trackr"
+
+
 function Projects() {
   const projects = [
     {
@@ -14,7 +24,7 @@ function Projects() {
       description:
         "A MERN stack-based project scheduler and tracker to streamline project management by enabling admin-controlled task assignment, real-time status updates, and candidate scoring, improving team productivity and accountability.",
       gitlink: "https://github.com/NehaVishwakarma26/trackr", // Replace with actual link if available
-      image: "path/to/trackr-image.jpg", // Replace with an appropriate image URL or path
+      image: trackr, // Replace with an appropriate image URL or path
     },
     {
       name: "Formee: Form Builder",
@@ -22,7 +32,7 @@ function Projects() {
         "A dynamic form builder enabling users to create, customize, and manage forms with various field types, implemented CSV export functionality for submissions, using React.js for the frontend, Node.js/Express for the backend, and MongoDB for data storage.",
       gitlink: "https://github.com/NehaVishwakarma26/Formee", // Replace with actual GitHub link
       link: "https://formeeformbuilder.netlify.app", // Live demo link
-      image: "path/to/formee-image.jpg", // Replace with an appropriate image URL or path
+      image: formee, // Replace with an appropriate image URL or path
     },
     {
       name: "ChattrHive",
@@ -30,7 +40,7 @@ function Projects() {
         "A real-time chat application using React, Node.js, Express, and MongoDB, integrating Socket.io for instant messaging and user presence tracking to enhance real-time user experience.",
       gitlink: "https://github.com/NehaVishwakarma26/ChatApplication", // Replace with actual GitHub link
       link: "https://chattrhive.netlify.app", // Live demo link
-      image: "path/to/chattrhive-image.jpg", // Replace with an appropriate image URL or path
+      image: chattrhive, // Replace with an appropriate image URL or path
     },
     
     {
@@ -38,7 +48,7 @@ function Projects() {
       description:
         "A financial assistant for setting goals, tracking expenses, and managing budgets using PHP and SQL, with real-time notifications and SMTP integration for status updates.",
       gitlink: "https://github.com/NehaVishwakarma26/bucksbuddy", // Replace with actual link if available
-      image: "path/to/bucksbuddy-image.jpg", // Replace with an appropriate image URL or path
+      image: bucksbuddy, // Replace with an appropriate image URL or path
     },
    
   ];

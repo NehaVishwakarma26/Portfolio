@@ -20,6 +20,11 @@ import Skills from "./Skills";
 import Background from "./Background";
 import AboutMe from "./AboutMe";
 import resume from "../Styles/Neha_Vishwakarma_Resume.pdf"
+// import bucksbuddy from "../assets/images/bucksbuddy"
+// import chattrhive from "../assets/images/chattrhive"
+// import formee from "../assets/images/formee"
+// import trackr from "../assets/images/trackr"
+
 function Home()
 {
 function openResume(){
@@ -55,7 +60,7 @@ return(
             </Link>
         </Grid>
         <Grid >
-            <Link href="https://www.linkedin.com/in/neha-vishwakarma-9a79a1262/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BXN3HUBfMQYOXEeFQv%2FZzuw%3D%3D">
+            <Link href="https://www.linkedin.com/in/neha-vishwakarma-9a79a1262/">
             <LinkedInIcon sx={{color:'white'}}/>
             </Link>
         </Grid>
