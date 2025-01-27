@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/Portfolio/static/js/main.2d06c1da.js",
+    "static/js/488.9561f9b8.chunk.js": "/Portfolio/static/js/488.9561f9b8.chunk.js",
+    "static/media/bucksbuddy.png": "/Portfolio/static/media/bucksbuddy.efb58097f187e73a30ac.png",
+    "static/media/formee.png": "/Portfolio/static/media/formee.4c04ee0e69325b934d55.png",
+    "static/media/Neha_Vishwakarma_Resume.pdf": "/Portfolio/static/media/Neha_Vishwakarma_Resume.10f93889e2ec5a7cf52c.pdf",
+    "static/media/trackr.png": "/Portfolio/static/media/trackr.f35be471d6f1c959c713.png",
+    "static/media/chattrhive.png": "/Portfolio/static/media/chattrhive.ba9cf837ddac59c27ae9.png",
+    "index.html": "/Portfolio/index.html",
+    "main.2d06c1da.js.map": "/Portfolio/static/js/main.2d06c1da.js.map",
+    "488.9561f9b8.chunk.js.map": "/Portfolio/static/js/488.9561f9b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2d06c1da.js"
+  ]
+}
