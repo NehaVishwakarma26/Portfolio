@@ -23,6 +23,7 @@ const skills = [
   { name: 'C' },
   { name: 'Java' },
   { name: 'Python' },
+  {name:'Tailwind CSS'}
 
 ];
 
