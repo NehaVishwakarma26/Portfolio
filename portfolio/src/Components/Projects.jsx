@@ -10,6 +10,7 @@ import bucksbuddy from "../assets/images/bucksbuddy.png"
 import chattrhive from "../assets/images/chattrhive.png"
 import formee from "../assets/images/formee.png"
 import trackr from "../assets/images/trackr.png"
+import devmetrics from "../assets/images/DevMetrics.png"
 import Box from '@mui/material/Box';
 // import bucksbuddy from "../assets/images/bucksbuddy"
 // import chattrhive from "../assets/images/chattrhive"
@@ -19,6 +20,14 @@ import Box from '@mui/material/Box';
 
 function Projects() {
   const projects = [
+{
+name:"DevMetrics",
+description:"DevMetrics is a GitHub-powered productivity tracker that helps developers monitor their daily coding progress, set commit goals, visualize contribution stats, and stay consistent with smart insights — all in a clean, intuitive dashboard.",
+gitlink: "https://github.com/NehaVishwakarma26/DevMetrics",
+link:"https://dev-metrics-five.vercel.app/",
+image:devmetrics
+},
+
     {
       name: "Trackr",
       description:
