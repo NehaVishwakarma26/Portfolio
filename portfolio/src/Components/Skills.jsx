@@ -8,24 +8,56 @@ import Box from '@mui/material/Box';
 import { orange } from '@mui/material/colors';
 
 const skills = [
-  { name: 'HTML5' },
-  { name: 'CSS' },
-  { name: 'JavaScript' },
-  { name: 'React.js' },
-  { name: 'Node.js' },
-  { name: 'Express.js' },
-  { name: 'MongoDB' },
-  { name: 'Socket.io' },
-  { name: 'Material-UI' },
-  { name: 'RESTful APIs' },
-  { name: 'Git' },
-  { name: 'Postman' },
-  { name: 'C' },
+  // Programming
   { name: 'Java' },
   { name: 'Python' },
-  {name:'Tailwind CSS'}
+  { name: 'C' },
+  { name: 'JavaScript' },
 
+  // AI & LLM
+  { name: 'LLaMA 3.1' },
+  { name: 'Prompt Engineering' },
+  { name: 'RAG Systems' },
+  { name: 'LangChain' },
+  { name: 'ChromaDB' },
+  { name: 'FAISS' },
+  { name: 'QLoRA / LoRA' },
+  { name: 'Hugging Face' },
+  { name: 'PyTorch' },
+
+  // Backend
+  { name: 'Spring Boot' },
+  { name: 'Spring Cloud' },
+  { name: 'Node.js' },
+  { name: 'Express.js' },
+  { name: 'REST APIs' },
+  { name: 'WebSockets' },
+  { name: 'RabbitMQ' },
+  { name: 'Microservices' },
+
+  // Frontend
+  { name: 'React.js' },
+  { name: 'Redux' },
+  { name: 'React Hooks' },
+  { name: 'Tailwind CSS' },
+  { name: 'Material-UI' },
+  { name: 'Bootstrap' },
+
+  // Databases
+  { name: 'MySQL' },
+  { name: 'PostgreSQL' },
+  { name: 'MongoDB' },
+
+  // DevOps & Tools
+  { name: 'Docker' },
+  { name: 'Docker Compose' },
+  { name: 'AWS' },
+  { name: 'Render' },
+  { name: 'Vercel' },
+  { name: 'GitHub Actions' },
+  { name: 'Git' }
 ];
+
 
 
 function Skills() {
