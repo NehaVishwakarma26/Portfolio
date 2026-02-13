@@ -19,7 +19,7 @@ import { useRef } from "react";
 import Skills from "./Skills";
 import AboutMe from "./AboutMe";
 // import resume from "../Styles/Neha_Vishwakarma_Resume.pdf"
-import resume from "../Styles/resume.pdf"
+import resume from "../Styles/resume_new.pdf"
 // import bucksbuddy from "../assets/images/bucksbuddy"
 // import chattrhive from "../assets/images/chattrhive"
 // import formee from "../assets/images/formee"
